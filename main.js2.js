@@ -156,8 +156,8 @@ switch (dayNumber){
 //     - Користувач вводить або має два числа.
 //         Потрібно знайти та вивести максимальне число з тих двох .
 //         Також потрібно врахувати коли введені рівні числа.
-let red = prompt();
-let gren=prompt();
+let red = +prompt();
+let gren=+prompt();
 if (red > gren){
     console.log("max number: " + red);
 }else if (gren > red){
