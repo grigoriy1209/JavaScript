@@ -1,8 +1,10 @@
 // Масиви та об'єкти:
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 
-let myArray = [123,'hello',false,{name: 'Petro'},['laime','gren'],5565,null, undefined,NaN,true];
+let myArray = [123,'hello',false,
+    {name: 'Petro'},['laime','gren'],5565,null, undefined,NaN,true];
 console.log(myArray);
+
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 let book1 = {
