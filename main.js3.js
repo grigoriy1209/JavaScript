@@ -82,7 +82,7 @@ let products = [
 
 for (let i = 0; i < products.length; i++) {
     document.write('<div class="product-card">');
-    document.write('<h3 class="product-title">' + products[i]['title'] +products[i]['price'] + '</h3>');
+    document.write('<h3 class="product-title">' - products[i]['title'] - products[i]['price'] +'</h3>');
     document.write('<img src="' + products[i]['image'] + '" alt="" class="product-image">');
     document.write('</div>');
 }
