@@ -16,7 +16,7 @@ while (i < 20){
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 let a = 0;
 while (a < 20){
-    document.write('<div>qwerty' + a + '</div>')
+    document.write('<h1>qwerty' + a + '</h1>')
    a++;
 }
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
@@ -82,7 +82,7 @@ let products = [
 
 for (let i = 0; i < products.length; i++) {
     document.write('<div class="product-card">');
-    document.write('<h3 class="product-title">' - products[i]['title'] - products[i]['price'] +'</h3>');
+    document.write('<h3 class="product-title">' + products[i]['title'] + products[i]['price'] +'</h3>');
     document.write('<img src="' + products[i]['image'] + '" alt="" class="product-image">');
     document.write('</div>');
 }
