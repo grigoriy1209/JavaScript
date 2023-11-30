@@ -34,7 +34,7 @@ console.log(y);
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
 function paragrafText(text){
-console .log(arguments)
+    document.write(`<p>${text}</p>`)
 }
 paragrafText(`<p>text text</p>`);
 paragrafText(`jdfgj, djfdff, dfdfd`);
