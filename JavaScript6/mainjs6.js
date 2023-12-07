@@ -37,10 +37,9 @@ let arr = stringToArray(str);
 console.log(arr);
 
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
-let Arr = [10,8,-7,55,987,-1011,0,1050,0];
-let string = Arr.map(String).join('')
-console.log(string)
-console.log(typeof string)
+const numbers = [10,8,-7,55,987,-1011,0,1050,0]
+const strings = numbers.map((num) => num.toString())
+console.log(strings)
 
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого,
 // або навпаки в залежності від значення аргументу direction.
@@ -165,11 +164,8 @@ function suitDiamod(){
 let allDiamod = suitDiamod()
 console.log(allDiamod)
 // // - всі трефи від 9 та більше
-function suitClubs (){
-    return cards.filter( card => card.cardSuit === 'clubs' && Number (card.value) >= 9)
-}
-let allClubs = suitClubs()
-console.log(allClubs)
+console.log(cards.filter((card) =>card.cardSuit === 'clubs' && ['9','10', 'ace','jack','queen','king','joker'].includes(card.value)))
+
 // ========================================================================
 //
 //     Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
