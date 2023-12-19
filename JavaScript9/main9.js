@@ -15,7 +15,12 @@ newDiv.style.color = 'blue'
 newDiv.style.fontSize = '23px'
 document.body.append(newDiv)
 document.body.appendChild(newDiv)
+// ===========================================================
+createHr('red')
+// ============================================================
 
+let clonedBlock = newDiv.cloneNode(true)
+document.body.appendChild(clonedBlock)
 // ===========================================================
 createHr('red')
 // ============================================================
