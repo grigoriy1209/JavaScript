@@ -209,9 +209,9 @@ let titleHeading = document.createElement('h2')
     titleHeading.textContent = `Title ${course.title}`
 
  let monthDuration  = document.createElement('p');
-    monthDuration.textContent = `MonthDuration${course.monthDuration}`;
+    monthDuration.textContent = `MonthDuration ${course.monthDuration}`;
  let hourDuration = document.createElement('p')
-     hourDuration.textContent = `HourDuration${course.hourDuration}`
+     hourDuration.textContent = `HourDuration ${course.hourDuration}`
 
     let modulesDiv = document.createElement('div')
     modulesDiv.className= 'modules'
